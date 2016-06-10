@@ -1,6 +1,6 @@
 {
   "name": "react-google-static-map-2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A wrapper for Google's Static Maps",
   "main": "lib/GoogleStaticMap.js",
   "scripts": {
