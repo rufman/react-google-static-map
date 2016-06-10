@@ -1,20 +1,20 @@
 {
   "name": "react-google-static-map-2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A wrapper for Google's Static Maps",
-  "main": "lib/GoogleStaticMap.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "babel GoogleStaticMap.js --out-dir lib",
+    "build": "babel src --out-dir lib",
     "clean": "rimraf lib dist",
     "prepublish": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dwr/react-google-static-map.git"
+    "url": "git@github.com:rufman/react-google-static-map.git"
   },
   "files": [
-    "GoogleStaticMap.js",
+    "index.js",
     "README.md"
   ],
   "keywords": [
