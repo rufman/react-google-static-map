@@ -2,7 +2,7 @@
 
 Google Static Maps Component for React
 
-Most of the code is from https://github.com/yelled3/react-native-google-static-map
+Fixes issues in: https://github.com/viatsko/react-google-static-map
 
 ## Installation
 ```
@@ -10,7 +10,7 @@ npm install --save react-google-static-map
 ```
 ## Usage
 ```js
-var GoogleStaticMap = require('react-google-static-map');
+import GoogleStaticMap from 'react-google-static-map';
 
 class MapExample extends React.Component {
   render() {

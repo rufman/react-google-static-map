@@ -46,18 +46,18 @@ const MAP_TYPES_VALUES = values(MAP_TYPES);
  *
  * @example: http://staticmapmaker.com/google/
  */
-class GoogleStaticMap {
+class GoogleStaticMap extends React.Component {
 
   /**
    * https://developers.google.com/maps/documentation/staticmaps/intro#api_key
    */
-  static ApiKey = null
+  static ApiKey = null;
 
   static RootUrl = 'http://maps.googleapis.com/maps/api/staticmap';
 
-  static ImageFormats = IMAGE_FORMATS
+  static ImageFormats = IMAGE_FORMATS;
 
-  static MapTypes = MAP_TYPES
+  static MapTypes = MAP_TYPES;
 
   static propTypes = {
     latitude: React.PropTypes.string.isRequired,
